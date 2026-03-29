@@ -15,7 +15,7 @@ Platforma oferă un model intern unificat pentru:
 - analiză anti-fraudă
 - dispute management
 
-Scopul proiectului este tehnic: să demonstreze arhitectură modulară, gândire enterprise și utilizarea practică.
+Scopul proiectului este strict tehnic
 
 ## Main Objectives
 
@@ -28,7 +28,6 @@ Acest proiect urmărește să demonstreze:
 - orchestrare și routing inteligent
 - motor de reguli pentru anti-fraudă
 - lifecycle pentru dispute
-- folosirea clară a design patterns din Java
 - extensibilitate pentru noi bănci și noi fluxuri
 
 ## Functional Scope
