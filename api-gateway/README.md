@@ -26,36 +26,44 @@ apoi rutează cererile către serviciile interne corespunzătoare.
 
 ### Structura proiectului: 
 
-api-gateway/ 
+api-gateway/
 ├── src/main/java/ro/stefan/gateway/
-│ ├── config/ 
-│ │ ├── GatewayRoutesConfig.java 
-│ │ ├── SecurityConfig.java 
-│ │ ├── WebClientConfig.java 
-│ │ └── OpenApiConfig.java 
-│ ├── filter/ 
-│ │ ├── CorrelationIdFilter.java 
-│ │ ├── RequestLoggingFilter.java 
-│ │ ├── AuthTokenRelayFilter.java 
-│ │ └── RateLimitFilter.java 
-│ ├── controller/ 
-│ │ ├── GatewayFallbackController.java 
-│ │ └── HealthController.java 
-│ ├── client/ 
-│ │ ├── ConsentServiceClient.java 
-│ │ ├── PaymentServiceClient.java 
-│ │ ├── AccountServiceClient.java 
-│ │ ├── FraudServiceClient.java 
-│ │ └── DisputeServiceClient.java 
-│ ├── dto/ 
-│ │ ├── ApiErrorResponse.java 
-│ │ └── GatewayHealthResponse.java 
-│ ├── exception/ 
-│ │ ├── GatewayExceptionHandler.java 
-│ │ ├── DownstreamServiceException.java 
-│ │ └── UnauthorizedGatewayException.java 
-│ │ └── ApiGatewayApplication.java 
-│ ├── src/main/resources/ 
-│ │ ├── application.yml 
-│ └── logback-spring.xml 
+│ ├── config/
+│ │ ├── GatewayRoutesConfig.java
+│ │ ├── SecurityConfig.java
+│ │ ├── WebClientConfig.java
+│ │ └── OpenApiConfig.java
+│ │
+│ ├── filter/
+│ │ ├── CorrelationIdFilter.java
+│ │ ├── RequestLoggingFilter.java
+│ │ ├── AuthTokenRelayFilter.java
+│ │ └── RateLimitFilter.java
+│ │
+│ ├── controller/
+│ │ ├── GatewayFallbackController.java
+│ │ └── HealthController.java
+│ │
+│ ├── client/
+│ │ ├── ConsentServiceClient.java
+│ │ ├── PaymentServiceClient.java
+│ │ ├── AccountServiceClient.java
+│ │ ├── FraudServiceClient.java
+│ │ └── DisputeServiceClient.java
+│ │
+│ ├── dto/
+│ │ ├── ApiErrorResponse.java
+│ │ └── GatewayHealthResponse.java
+│ │
+│ ├── exception/
+│ │ ├── GatewayExceptionHandler.java
+│ │ ├── DownstreamServiceException.java
+│ │ └── UnauthorizedGatewayException.java
+│ │
+│ └── ApiGatewayApplication.java
+│
+├── src/main/resources/
+│ ├── application.yml
+│ └── logback-spring.xml
+│
 └── pom.xml
