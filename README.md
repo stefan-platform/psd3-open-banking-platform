@@ -86,3 +86,4 @@ Acest proiect urmărește să demonstreze:
 ## Arhitectura proiectului
  ### 1.api-gateway
  Reprezintă punctul unic de intrare în platformă. Acesta expune API-urile publice, aplică responsabilități transversale precum autentificare, correlation  ID, request logging, rate limiting și error normalization, apoi rutează cererile către serviciile interne corespunzătoare.
+ ### 2.open-banking-consent-service
